@@ -1,0 +1,90 @@
+#main
+{
+  font-size: 20px;
+  margin-top: 75px;
+  width: 100%;
+  color:white;
+  background-color: rgba(0,0,0,0.9);
+}
+.w3-black
+{
+  background-color: #82b33f !important;
+}
+.doc
+{
+  height: 175px;
+  width: 100%;
+  border: 1px solid white;
+  display: flex;
+}
+.file_icon
+{
+  background: url('./images/files.png') no-repeat;
+  width: 80px;
+  height: 100%;
+  margin: 14px 11px;
+  display: block;
+}
+.pdf_icon
+{
+  background: url('./images/pdf.png') no-repeat;
+  width: 80px;
+  height: 100%;
+  margin: 14px 11px;
+  display: block;
+}
+.xls_icon
+{
+  background: url('./images/xls.png') no-repeat;
+  width: 80px;
+  height: 100%;
+  margin: 14px 11px;
+  display: block;
+}
+.adb_icon
+{
+  background: url('./images/adb.png') no-repeat;
+  width: 80px;
+  height: 100%;
+  margin: 14px 11px;
+  display: block;
+}
+.doc_text
+{
+font-size: 12px;
+}
+.plus_icon
+{
+  background: url(./images/plus.png) no-repeat;
+  width: 23px;
+  height: 17px;
+  display: inline-block;
+}
+.plus
+{
+  display: inline-block; 
+  width: 70%;
+  word-wrap: break-word;
+  font-size: 14px;
+}
+.arrow {
+  background: url(./images/arrow.png) no-repeat;
+  float: right;
+  width: 38px;
+  height: 21px;
+  padding: -30px 34px;
+  display: inline-block;
+  margin: 0;
+  margin-top: -63px;;
+}
+.arrow:hover
+{
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+.file_box
+{
+  height: 910px;
+  overflow: hidden;
+}

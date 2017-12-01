@@ -1,0 +1,95 @@
+/* The Modal (background) */
+.modal {
+  z-index: 999999;
+  display: none;
+  display: none;
+  margin-top: -109px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  }
+/* Modal Content */
+.modal-content 
+{
+  background-color: black;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: 818px;
+  height: 728px;
+}
+/* The Close Button */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.description 
+{
+  width: 940px;
+  overflow: hidden;
+  height: 910px;
+}
+a
+{
+  text-decoration:none;
+  color: white;
+}
+.grid_layout
+{
+  margin-top: 76px;
+  box-sizing: border-box;
+  clear: both;
+  margin-bottom: 25px;
+}
+.gallery_nav
+{
+  width: 100%;
+  overflow: hidden;
+}
+.layout
+{
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+  background-size: contain;
+  box-sizing: border-box;
+  width: 19.6%;
+  height: 95px;
+  border: 1px solid white;
+}
+.gallery_ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  float: right;
+  /* overflow: hidden; */
+  margin: auto;
+        
+}
+.gallery_li {
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 5px 0;
+  float: right;
+  width: 74px;
+  border-right: 1px solid white;
+  box-sizing: border-box;
+  background-color: #82b33f;
+}
+.modal-description
+{
+  height: 151px;
+  width: 100%;
+}
+.rg-image > img
+{
+  border: 1px solid white;
+}
+.carousel img
+{
+  width: 100%;
+  height:100%;
+}

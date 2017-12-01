@@ -1,0 +1,136 @@
+
+
+.music_nav
+{
+	
+	border: 1px solid white;
+	width:213px;
+	margin-bottom: 32px;
+	float: right;
+	
+
+}
+.music_ul {
+	
+		text-align: center;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color:#82b33f;
+    margin: auto;
+        height: 30px
+}
+.music_li {
+	padding: 5px 0;
+    float: left;
+    width: 33.33%;
+    border-right: 1px solid white;
+     box-sizing: border-box;
+}
+
+.music_player
+{
+
+	width: 436px;
+	height: 37px;
+	clear: both;
+  margin-bottom: 32px;
+}
+ a
+  {
+    text-decoration:none;
+    color: white;
+  }
+  section {
+  width: 42em;
+  height: 25em;
+  margin: auto;
+  position: relative;
+  margin-top: 69px;
+}
+
+.items {
+  background-size: contain;
+  width: 500px;
+  height: 281px;
+  background: #333;
+  display: inline-block;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+}
+
+.items p {
+  color: white;
+  font-weight: bold;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 1.175em;
+}
+
+.items {
+  position: absolute;
+}
+
+.main-pos {
+  margin-left: 2em !important;
+  z-index: 3000;
+  /*background-image: url('https://dl.dropbox.com/u/32649907/imgs/shadow.png');*/
+}
+
+.left-pos {
+  opacity: .3;
+  margin-left: -17em !important;
+  z-index: 1000;
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  transform: scale(.75);
+}
+
+.back-pos {
+  margin-left: 2em !important;
+  opacity: .05;
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  transform: scale(.5);
+}
+
+.right-pos {
+  opacity: .3;
+  margin-left:  21em !important;
+  z-index: 1000;
+  -webkit-transform: scale(.55);
+  -moz-transform: scale(.55);
+  transform: scale(.55);
+}
+
+/*span {
+  position: relative;
+  margin: 0 auto;
+  left: 17em;
+  top: 20em;
+}*/
+.music_left
+{
+  
+    float: left;
+    margin-top: 252px;
+    margin-left: 0;
+
+  
+}
+.music_right
+{
+  
+    float: right;
+    margin-top: 252px;
+    margin-right: 0;
+
+  
+}
+
+.check .music_player
+{
+  margin auto;
+}

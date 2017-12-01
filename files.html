@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="./css/files.css">  
+<link rel="stylesheet" type="text/css" href="./css/music.css"> 
+<link rel="stylesheet" type="text/css" href="./css/gallery.css"> 
+<link rel="stylesheet" type="text/css" href="./css/gallery.css">  
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">  
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/gallery.js"></script> -->
+<!-- <style type="text/css">
+  #main
+  {
+    font-size: 20px;
+    margin-top: 75px;
+    width: 100%;
+    color:white;
+    background-color: rgba(0,0,0,0.9);
+
+  }
+.w3-black{
+   
+    background-color: #82b33f !important;
+   
+}
+.doc
+{
+  height: 175px;
+  width: 100%;
+  border: 1px solid white;
+  display: flex;
+}
+.file_icon
+{
+  background: url('./images/files.png') no-repeat;
+     width: 80px;
+  height: 100%;
+  margin: 14px 11px;
+  display: block;
+
+}
+.pdf_icon
+{
+  background: url('./images/pdf.png') no-repeat;
+     width: 80px;
+  height: 100%;
+  margin: 14px 11px;
+  display: block;
+
+}
+.xls_icon
+{
+  background: url('./images/xls.png') no-repeat;
+     width: 80px;
+  height: 100%;
+  margin: 14px 11px;
+  display: block;
+
+}
+.adb_icon
+{
+  background: url('./images/adb.png') no-repeat;
+     width: 80px;
+  height: 100%;
+  margin: 14px 11px;
+  display: block;
+
+}
+.doc_text
+{
+font-size: 12px;
+}
+.plus_icon
+{
+     background: url(./images/plus.png) no-repeat;
+    width: 23px;
+    height: 17px;
+    display: inline-block;
+}
+
+.plus
+{
+  display: inline-block; 
+  width: 70%;
+  word-wrap: break-word;
+  font-size: 14px;
+}
+
+.arrow {
+       background: url(./images/arrow.png) no-repeat;
+    float: right;
+    width: 38px;
+    height: 21px;
+    padding: -30px 34px;
+    display: inline-block;
+    margin: 0;
+    margin-top: -63px;;
+}
+
+.arrow:hover
+{
+ background-color: red;
+ width: 50px;
+ height: 50px;
+}
+.file_box
+{
+      height: 910px;
+    overflow: hidden;
+}
+</style> -->
+</head>
+<style type="text/css">  
+</style>
+<body>
+  <div id="container">
+    <div class="sub-container">
+        <div class="col1">
+          <div class="mic"></div>
+         </div>
+      <div class="col2">
+        <div class="music"></div>
+        <div class="die"></div>
+      </div>  
+      <div class="col3">
+        <div class= box><span class="sc"></span></div>
+      </div>
+      <div class="nav">
+         <ul class="nav_ul">
+         <li class= "nav_li"><a href="about_me.html">About me</a></li>
+         <li class= "nav_li"><a href="gallery_view.html">My Pictures</a></li>
+         <li class= "nav_li"><a href="my_music_grid.html">My Music</a></li>
+         <li class= "nav_li"><a href="files.html">My Files</a></li>
+         <li class= "nav_li"><a href="videos.html">My Videos</a></li>
+         </ul>
+      </div>
+      <div class="file_box">
+        <div  id="main">
+          <button onclick="myFunction('Demo1')" class=" active w3-btn w3-block w3-black w3-left-align ">Documents</button>
+              <div id="Demo1" class="w3-block w3-hide">
+              <div class="doc">
+                  <div class="file_icon"></div>
+                  <div class="doc_body">
+                      <h5 class="doc_text">My Document name.doc<br>(240 kb)<br>uploaded 06/23/10 at 12:53</h5>
+                      <div class="plus">
+                        <div class="plus_icon"></div>
+                          An icon is a religious work of art, most commonly a  
+                          painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+                          broadly the term  religious work of art
+                     </div>
+                    <div class="arrow"></div>
+
+                </div>
+            </div>
+            <div class="doc">
+                <div class="file_icon"></div>
+                <div class="doc_body">
+                    <h5 class="doc_text">My Document name.doc<br>(240 kb)<br>uploaded 06/23/10 at 12:53</h5>
+                    <div class="plus">
+                    <div class="plus_icon"></div>
+                     An icon is a religious work of art, most commonly a  
+                     painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+                     broadly the term religious work of art
+                    </div>
+                    <div class="arrow"></div>
+                 </div>
+            </div>
+            <div class="doc">
+                <div class="file_icon"></div>
+                <div class="doc_body">
+                  <h5 class="doc_text">My Document name.doc<br>(240 kb)<br>uploaded 06/23/10 at 12:53</h5>
+                  <div class="plus">
+                  <div class="plus_icon"></div>
+                    An icon is a religious work of art, most commonly a  
+                   painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+                    broadly the term religious work of art
+                 </div>
+                 <div class="arrow"></div>
+               </div>
+             </div>
+          </div>
+
+
+        <button onclick="myFunction('Demo2')" class="w3-btn w3-block w3-black w3-left-align">Presentations</button>
+        <div id="Demo2" class="w3-block w3-hide">
+        
+        <div class="doc">
+        <div class="pdf_icon"></div>
+        <div class="doc_body">
+            <h5 class="doc_text">My Document name.doc<br>
+           (240 kb)
+            <br>
+            uploaded 06/23/10 at 12:53
+           </h5>
+           <div class="plus">
+            <div class="plus_icon"></div>
+             An icon is a religious work of art, most commonly a  
+             painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+             broadly the term  religious work of art
+           </div>
+            <div class="arrow"></div>
+
+        </div>
+        </div>
+       <div class="doc">
+        <div class="pdf_icon"></div>
+        <div class="doc_body">
+            <h5 class="doc_text">My Document name.doc<br>
+           (240 kb)
+            <br>
+            uploaded 06/23/10 at 12:53
+           </h5>
+           <div class="plus">
+            <div class="plus_icon"></div>
+             An icon is a religious work of art, most commonly a  
+             painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+             broadly the term religious work of art
+           </div>
+            <div class="arrow"></div>
+
+        </div>
+        </div>
+         <div class="doc">
+        <div class="pdf_icon"></div>
+        <div class="doc_body">
+            <h5 class="doc_text">My Document name.doc<br>
+           (240 kb)
+            <br>
+            uploaded 06/23/10 at 12:53
+           </h5>
+           <div class="plus">
+            <div class="plus_icon"></div>
+             An icon is a religious work of art, most commonly a  
+             painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+             broadly the term religious work of art
+           </div>
+            <div class="arrow"></div>
+
+        </div>
+        </div>
+        </div>
+        
+        <button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-black w3-left-align">Spreadsheets</button>
+        <div id="Demo3" class="w3-block w3-hide">
+        <div class="doc">
+        <div class="xls_icon"></div>
+        <div class="doc_body">
+            <h5 class="doc_text">My Document name.doc<br>
+           (240 kb)
+            <br>
+            uploaded 06/23/10 at 12:53
+           </h5>
+           <div class="plus">
+            <div class="plus_icon"></div>
+             An icon is a religious work of art, most commonly a  
+             painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+             broadly the term  religious work of art
+           </div>
+            <div class="arrow"></div>
+
+        </div>
+        </div>
+       <div class="doc">
+        <div class="xls_icon"></div>
+        <div class="doc_body">
+            <h5 class="doc_text">My Document name.doc<br>
+           (240 kb)
+            <br>
+            uploaded 06/23/10 at 12:53
+           </h5>
+           <div class="plus">
+            <div class="plus_icon"></div>
+             An icon is a religious work of art, most commonly a  
+             painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+             broadly the term religious work of art
+           </div>
+            <div class="arrow"></div>
+
+        </div>
+        </div>
+         <div class="doc">
+        <div class="xls_icon"></div>
+        <div class="doc_body">
+            <h5 class="doc_text">My Document name.doc<br>
+           (240 kb)
+            <br>
+            uploaded 06/23/10 at 12:53
+           </h5>
+           <div class="plus">
+            <div class="plus_icon"></div>
+             An icon is a religious work of art, most commonly a  
+             painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+             broadly the term religious work of art
+           </div>
+            <div class="arrow"></div>
+
+        </div>
+        </div>
+        </div>
+        
+        <button onclick="myFunction('Demo4')" class="w3-btn w3-block w3-black w3-left-align"> PDF's</button>
+        <div id="Demo4" class="w3-block w3-hide">
+       <div class="doc">
+        <div class="adb_icon"></div>
+        <div class="doc_body">
+            <h5 class="doc_text">My Document name.doc<br>
+           (240 kb)
+            <br>
+            uploaded 06/23/10 at 12:53
+           </h5>
+           <div class="plus">
+            <div class="plus_icon"></div>
+             An icon is a religious work of art, most commonly a  
+             painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+             broadly the term  religious work of art
+           </div>
+            <div class="arrow"></div>
+
+        </div>
+        </div>
+       <div class="doc">
+        <div class="adb_icon"></div>
+        <div class="doc_body">
+            <h5 class="doc_text">My Document name.doc<br>
+           (240 kb)
+            <br>
+            uploaded 06/23/10 at 12:53
+           </h5>
+           <div class="plus">
+            <div class="plus_icon"></div>
+             An icon is a religious work of art, most commonly a  
+             painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+             broadly the term religious work of art
+           </div>
+            <div class="arrow"></div>
+
+        </div>
+        </div>
+         <div class="doc">
+        <div class="adb_icon"></div>
+        <div class="doc_body">
+            <h5 class="doc_text">My Document name.doc<br>
+           (240 kb)
+            <br>
+            uploaded 06/23/10 at 12:53
+           </h5>
+           <div class="plus">
+            <div class="plus_icon"></div>
+             An icon is a religious work of art, most commonly a  
+             painting, from Eastern Christianity and in certain Eastern Catholic churches. More 
+             broadly the term religious work of art
+           </div>
+            <div class="arrow"></div>
+
+        </div>
+        </div>
+        </div>
+        
+
+        </div>
+
+       
+      </div>
+
+        </div>
+
+        
+<div class="footer"> 
+        <div class="line"> </div>
+        <div class="tos"><a href="" class="tos_p">EULA</a><a href=""  class="tos_p">| Terms Of Service</a>|<a href=""  class="tos_p">| Privacy Policy</a></div>
+        <div class="foot_content"><span class="foot_image"></span><p>Copyright 2012 My Website. All Rights Reserved</p></div>
+        <div class="icons">
+          <span class="a"></span>
+          <span class="fb"></span>
+          <span class="b"></span>
+          <span class="c"></span>
+          <span class="d"></span>
+          <span class="e"></span>
+          
+        </div>
+   </div>
+
+      </div>
+ </div>
+
+</div>
+<script src="./vendor/js/jquery.min.js"></script>
+<script src="./js/script.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+
+
+
+
+</html>

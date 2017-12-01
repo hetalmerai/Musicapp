@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="./css/style.css">  
+<link rel="stylesheet" type="text/css" href="./css/music.css">  
+<link rel="stylesheet" type="text/css" href="./css/gallery.css"> 
+<link rel="stylesheet" type="text/css" href="./css/video.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/gallery.js"></script>
+</head>
+<body>
+  
+<div id="container">
+        <div class="sub-container">
+              <div class="col1">
+                <div class="mic"></div>
+              </div>
+              <div class="col2">
+                <div class="music"></div>
+                <div class="die"></div>
+              </div>  
+              <div class="col3">
+                <div class= box></div>
+              </div>
+              <div class="nav">
+                <ul class="nav_ul">
+                    <li class= "nav_li"><a href="about_me.html">About me</a></li>
+                    <li class= "nav_li"><a href="gallery_view.html">My Pictures</a></li>
+                    <li class= "nav_li"><a href="my_music_grid.html">My Music</a></li>
+                    <li class= "nav_li"><a href="files.html">My Files</a></li>
+                    <li class= "nav_li"><a href="#about">My Videos</a></li>
+                </ul>
+               </div>
+              <div class="fix">
+                    <div class="gallery_nav">
+                          <ul class="gallery_ul">
+                                <li  class= "gallery_li "><a class="gallery" >Gallery</a></li>
+                                <li class= "gallery_li active"><a class="grid" >Grid</a></li>
+                          </ul>
+                     </div
+                      <!-- <div class="grid"> -->
+                        <div class="description">
+                          <div class="video_player"> 
+                                <iframe width="460" height="242" src=" " frameborder="0" allowfullscreen></iframe>
+                          </div>
+                          <div class="music_logo">
+                                <div class="l"></div>
+                                <div class="r">
+                                  <p>Name</p>
+                                  <p>Artist</p>
+                                  <p>Genre</p>
+                                  <p>Size</p>
+                                  <p>Length</p>
+                                  <p>Rating</p>
+                                </div>
+                          </div>
+                          <div class="grid_layout1">
+                                  <img class="layout" id="myBtn" src="images/cp.jpg" data-description="https://www.youtube.com/embed/YykjpeuMNEk"  />
+                                  <img class="layout" id="myBtn" src="images/sp.jpg"  data-description="https://www.youtube.com/embed/YykjpeuMNEk"/>
+                                  <img class="layout" id="myBtn" src="images/lp.jpg" data-description="https://www.youtube.com/embed/YykjpeuMNEk"/>
+                                  <img class="layout" id="myBtn" src="images/h.jfif" data-description="https://www.youtube.com/embed/YykjpeuMNEk" />
+                                  <img class="layout" id="myBtn" src="images/jl.jfif" data-description="https://www.youtube.com/embed/YykjpeuMNEk" />
+                          </div>
+                          <div class="grid_layout1">
+                                  <img class="layout" id="myBtn" src="images/cp.jpg" data-description="https://www.youtube.com/embed/YykjpeuMNEk"  />
+                                  <img class="layout" id="myBtn" src="images/sp.jpg"  data-description="https://www.youtube.com/embed/YykjpeuMNEk"/>
+                                  <img class="layout" id="myBtn" src="images/lp.jpg" data-description="https://www.youtube.com/embed/YykjpeuMNEk"/>
+                                  <img class="layout" id="myBtn" src="images/h.jfif" data-description="https://www.youtube.com/embed/YykjpeuMNEk" />
+                                  <img class="layout" id="myBtn" src="images/jl.jfif" data-description="https://www.youtube.com/embed/YykjpeuMNEk" />
+                          </div>
+                        </div>
+                      <div class="check" id="gallery_main">
+                                  <span><input type="button" value="Prev" id="prev" class="music_left"></span>
+                                  <span><input type="button" value="Next" id="next" class="music_right"></span>
+                                  <section>
+                                    <ul class="carousel" ">
+                                    <li class="items right-pos" id="2">
+                                    <iframe width="420" height="345" src="https://youtu.be/YykjpeuMNEk"></iframe>
+                                    </li>
+                                    <li class="items back-pos" id="3">
+                                    <iframe width="420" height="345" src="https://youtu.be/YykjpeuMNEk"></iframe></li>
+                                    <li class="items back-pos" id="4"><iframe width="420" height="345" src="https://youtu.be/YykjpeuMNEk"></iframe>
+                                    </li>
+                                    <li class="items back-pos" id="5">
+                                    <iframe src="images/h.jfif" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    </li>
+                                    <li class="items back-pos" id="6">
+                                    <img src="images/sp.jpg" data-description="D:/Task2/music/coldplay.mp3" />
+                                    </li>
+                                    <li class="items left-pos" id="7"><img src="images/jl.jfif" data-description="D:/Task2/music/coldplay.mp3"/>
+                                    </li>
+                                    </ul>
+                                    </section>
+                      </div>
+
+                </div>
+
+                       <div class="footer"> 
+                                    <div class="line"> </div>
+                                    <div class="tos"><a href="" class="tos_p">EULA</a><a href=""  class="tos_p">| Terms Of Service</a>|<a href=""  class="tos_p">| Privacy Policy</a></div>
+                                    <div class="foot_content"><span class="foot_image"></span><p>Copyright 2012 My Website. All Rights Reserved</p></div>
+                                    <div class="icons">
+                                      <span class="fb"></span>
+                                      <span class="fb"></span>
+                                      <span class="fb"></span>
+                                      <span class="fb"></span>
+                                      <span class="fb"></span>
+                                      <span class="fb"></span>
+                                    </div>
+                        </div>
+      </div>
+</div>
+
+
+
+</body>
+
+<script type="text/javascript">
+  
+    $(document).ready(function(){
+
+       $(".check").hide();
+      
+       $(".description").show();
+       
+        $(".grid").click(function(){
+          $(".check").hide();
+          
+       $(".description").show();
+         $("a").parent().removeClass('active');
+         $(this).parent().addClass('active');
+         });
+
+        $(".gallery").click(function(){
+            $(".check").show();
+          $(".description").hide();
+        
+        $("a").parent().removeClass('active');
+         $(this).parent().addClass('active');
+
+         });
+
+
+ });
+
+
+$(document).ready(function(){
+    $("img").click(function(e){
+        e.preventDefault();
+        var x = $(this).attr("data-description");
+        $("iframe").attr('src',x);
+        var t=$(this).attr("src");
+        // t='./../'+t;
+        console.log(t);
+        $(".l").css("background-image","url("+t+")");
+        
+    });
+ });
+
+
+//slideshow style interval
+var autoSwap = setInterval( swap,3500);
+
+//pause slideshow and reinstantiate on mouseout
+$('ul, span').hover(
+  function () {
+    clearInterval(autoSwap);
+}, 
+  function () {
+   autoSwap = setInterval( swap,3500);
+});
+
+//global variables
+var items = [];
+var startItem = 1;
+var position = 0;
+var itemCount = $('.carousel li.items').length;
+var leftpos = itemCount;
+var resetCount = itemCount;
+
+//unused: gather text inside items class
+$('li.items').each(function(index) {
+    items[index] = $(this).text();
+});
+
+//swap images function
+function swap(action) {
+  var direction = action;
+  
+  //moving carousel backwards
+  if(direction == 'counter-clockwise') {
+    var leftitem = $('.left-pos').attr('id') - 1;
+    if(leftitem == 0) {
+      leftitem = itemCount;
+    }
+    
+    $('.right-pos').removeClass('right-pos').addClass('back-pos');
+    $('.main-pos').removeClass('main-pos').addClass('right-pos');
+    $('.left-pos').removeClass('left-pos').addClass('main-pos');
+    $('#'+leftitem+'').removeClass('back-pos').addClass('left-pos');
+    
+    startItem--;
+    if(startItem < 1) {
+      startItem = itemCount;
+    }
+  }
+  
+  //moving carousel forward
+  if(direction == 'clockwise' || direction == '' || direction == null ) {
+    function pos(positionvalue) {
+      if(positionvalue != 'leftposition') {
+        //increment image list id
+        position++;
+        
+        //if final result is greater than image count, reset position.
+        if((startItem+position) > resetCount) {
+          position = 1-startItem;
+        }
+      }
+    
+      //setting the left positioned item
+      if(positionvalue == 'leftposition') {
+        //left positioned image should always be one left than main positioned image.
+        position = startItem - 1;
+      
+        //reset last image in list to left position if first image is in main position
+        if(position < 1) {
+          position = itemCount;
+        }
+      }
+   
+      return position;
+    }  
+  
+   $('#'+ startItem +'').removeClass('main-pos').addClass('left-pos');
+   $('#'+ (startItem+pos()) +'').removeClass('right-pos').addClass('main-pos');
+   $('#'+ (startItem+pos()) +'').removeClass('back-pos').addClass('right-pos');
+   $('#'+ pos('leftposition') +'').removeClass('left-pos').addClass('back-pos');
+
+    startItem++;
+    position=0;
+    if(startItem > itemCount) {
+      startItem = 1;
+    }
+  }
+}
+
+//next button click function
+$('#next').click(function() {
+  swap('clockwise');
+});
+
+//prev button click function
+$('#prev').click(function() {
+  swap('counter-clockwise');
+});
+
+//if any visible items are clicked
+$('li').click(function() {
+  if($(this).attr('class') == 'items left-pos') {
+     swap('counter-clockwise'); 
+  }
+  else {
+    swap('clockwise'); 
+  }
+});
+
+
+
+
+</script>
+</html>
